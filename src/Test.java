@@ -23,6 +23,7 @@ public class Test {
             }
         }
         System.out.println("比它们小的数字个数是:");
+
         System.out.println(bigger);
     }
 }
