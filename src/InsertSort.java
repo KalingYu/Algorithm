@@ -1,5 +1,5 @@
 /**
- * Created by kaling on 15/6/11.
+ *
  * 插入排序的 demo
  */
 public class InsertSort {
