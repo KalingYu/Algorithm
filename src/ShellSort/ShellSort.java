@@ -20,7 +20,7 @@ public class ShellSort {
                 //将a【i]】插入到a[i-h], a[i-2*h], a[i-
                 // 3*h]……之中
                 for (int j = i; j >= h && less(a[j], a[j-h]); j-=h)
-                    exch(a, j, j-h);
+                    exchange(a, j, j-h);
             }
             h = h/3;
         }
@@ -31,7 +31,7 @@ public class ShellSort {
         return v.compareTo(w) < 0;
     }
 
-    private static void exch(Comparable [] a, int i, int j){
+    private static void exchange(Comparable [] a, int i, int j){
         Comparable t = a[i];
         a[i] = a[j];
         a[j] = t;
