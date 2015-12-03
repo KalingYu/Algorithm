@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="edu.princeton.cs.algs4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../StudyMaterials/java/javapackage/stdlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../StudyMaterials/java/javapackage/stdlib.jar!/com/algs4/stdlib" />
+    </SOURCES>
+  </library>
+</component>
